@@ -23,7 +23,7 @@ const News = () => {
                 </h2>
                 <div className={styleNews["card-type-3-img"]}>
                   <Image
-                    src="/images/news/cart-type-3-img1.svg"
+                    src="/next-app/images/news/cart-type-3-img1.svg"
                     width={280}
                     height={280}
                     alt="Blog Image"
@@ -39,7 +39,7 @@ const News = () => {
                 </h2>
                 <div className={styleNews["card-type-3-img"]}>
                   <Image
-                    src="/images/news/cart-type-3-img1.svg"
+                    src="/next-app/images/news/cart-type-3-img1.svg"
                     width={280}
                     height={280}
                     alt="Blog Image"
@@ -55,7 +55,7 @@ const News = () => {
                 </h2>
                 <div className={styleNews["card-type-3-img"]}>
                  <Image
-                    src="/images/news/cart-type-3-img1.svg"
+                    src="/next-app/images/news/cart-type-3-img1.svg"
                     width={280}
                     height={280}
                     alt="Blog Image"
