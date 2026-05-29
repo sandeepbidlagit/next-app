@@ -1,0 +1,2 @@
+=> The url will be this
+- http://localhost:3000/next-app

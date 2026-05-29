@@ -18,7 +18,7 @@ const Banner = () => {
               <div className={styleBanner["color-overlay"]}>
                 <div className={styleBanner["banner-wrapper"]}>
                   <Image
-                    src="/images/aboutpgbanner/banner-inner.jpg"
+                    src="/next-app/images/aboutpgbanner/banner-inner.jpg"
                     fill
                     alt="Photo"
                     className={styleBanner["banner-area-img"]}

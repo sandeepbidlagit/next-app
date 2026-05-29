@@ -13,9 +13,7 @@ const AboutUs = () => {
             <div className={aboutStyle["about-us-top"]}>
               <div className={aboutStyle.aboutleft}>
                 <Image
-                  src="/images/aboutus/aboutUs-left-img.jpg"
-                  //  width={200}
-                  //  height={100}
+                  src="/next-app/images/aboutus/aboutUs-left-img.jpg"
                   alt="Photo"
                   fill
                   style={{ objectFit: "cover",  borderRadius: "50%" }}
@@ -56,7 +54,6 @@ const AboutUs = () => {
               </div>
 
               <div className={cardStyles["card-type-2"]}>
-                {/* <h2 className="card-type-2-title counter" data-target="32">32</h2> */}
                 <h2 className={`${cardStyles["card-type-2-title"]} ${aboutStyle.counter}`} data-target="32">32</h2>
                 <div className={cardStyles["card-type-2-item"]}>
                   <h3 className={aboutStyle["list-title"]}>Donor PARTNERS</h3>

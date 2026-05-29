@@ -11,7 +11,7 @@ const page = () => {
             <div className={styleFooter["footer-contact"]}>
               <div className={styleFooter["address"]}>
                 <h3 className={styleFooter["footer-title"]}>The Anchor Fund for</h3>
-                <Image src="/images/footer/pmif-logo.svg"
+                <Image src="/next-app/images/footer/pmif-logo.svg"
                   alt="Pmi Logo"
                   width={167}
                   height={69}
@@ -19,7 +19,7 @@ const page = () => {
                 />
 
                 <h3 className={styleFooter["footer-title"]}>Administered by</h3>
-                <Image src="/images/footer/the-world-bank-logo.svg"
+                <Image src="/next-app/images/footer/the-world-bank-logo.svg"
                   alt="Pmi Logo"
                   width={266}
                   height={53}

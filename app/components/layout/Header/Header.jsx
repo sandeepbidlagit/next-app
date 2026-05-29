@@ -30,7 +30,7 @@ const page = () => {
           <div className={headerStyles.container}>
             <div>
               <Link href="/">
-                <Image src="/images/header/logo.svg"
+                <Image src="/next-app/images/header/logo.svg"
                   alt="Profile picture"
                   width={173}
                   height={70}
@@ -45,7 +45,7 @@ const page = () => {
               </div>
 
               <div className={headerStyles.search} onClick={() => setSearchOpen(prev => !prev)}>
-                <Image src="/images/header/search.svg"
+                <Image src="/next-app/images/header/search.svg"
                   alt="Profile picture"
                   width={27}
                   height={24}
@@ -55,7 +55,7 @@ const page = () => {
                 <div className={`${headerStyles['search-form-outer']} ${searchOpen ? headerStyles.active : ""}`}>
                   <input type="text" className={headerStyles['input-form']} placeholder="Search" />
                   <input type="submit" className={headerStyles['input-form-search']} />
-                  <Image src="/images/header/close-icon-search.png"
+                  <Image src="/next-app/images/header/close-icon-search.png"
                     alt="Close Icons"
                     className={headerStyles['close-icon']}
                     width={27}

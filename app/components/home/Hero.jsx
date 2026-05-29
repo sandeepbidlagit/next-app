@@ -17,7 +17,7 @@ const Hero = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/data/heroSlider.json");
+        const res = await fetch("/next-app/data/heroSlider.json");
         if (!res.ok) throw new Error("Failed to load JSON");
         const data = await res.json();
         setHeroSlide(data);

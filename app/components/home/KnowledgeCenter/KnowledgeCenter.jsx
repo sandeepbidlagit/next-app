@@ -12,7 +12,7 @@ const KnowledgeCenter = () => {
             <div className={styleKnowledge["knowledge-block-left"]}>
 
               <Image
-                src="/images/KnowledgeCenter/mid-img-left.jpg"
+                src="/next-app/images/KnowledgeCenter/mid-img-left.jpg"
                 width={266}
                 height={354}
                 alt="Photo"
@@ -23,7 +23,7 @@ const KnowledgeCenter = () => {
               <div className={styleKnowledge.middle}>
                 <div className={styleKnowledge["middle-img"]}>
                   <Image
-                    src="/images/KnowledgeCenter/mid-img.jpg"
+                    src="/next-app/images/KnowledgeCenter/mid-img.jpg"
                     width={380}
                     height={499}
                     alt="Photo"
@@ -80,7 +80,7 @@ const KnowledgeCenter = () => {
             </div>
             <div className={styleKnowledge["knowledge-block-right"]}>
               <Image
-                src="/images/KnowledgeCenter/mid-img-right.jpg"
+                src="/next-app/images/KnowledgeCenter/mid-img-right.jpg"
                 width={266}
                 height={354}
                 alt="Photo"

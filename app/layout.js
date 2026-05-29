@@ -13,12 +13,13 @@ import "./styles/fonts/fonts.css";
 const myFont = localFont({
   src: [
     {
-      path: '../public/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2',
+      // path: '../public/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2',
+      path: './fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../public/site-fonts/Avenir/webFonts/AvenirLTPro-Black/font.woff2',
+      path: './fonts/Avenir/webFonts/AvenirLTPro-Black/font.woff2',
       weight: '700',
       style: 'normal',
     },
