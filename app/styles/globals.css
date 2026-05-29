@@ -1,16 +1,16 @@
 /* @import './variables.css'; */
-@import './base/base.css';
-@import './reset/reset.css';
-@import './colors/colors.css';
-@import './container/container.css';
-@import './container/container--max-1199.css';
-@import './container/container--min-1600.css';
+@import '../styles/base/base.css';
+@import '../styles/reset/reset.css';
+@import '../styles/colors/colors.css';
+@import '../styles/container/container.css';
+@import '../styles/container/container--max-1199.css';
+@import '../styles/container/container--min-1600.css';
 
 /* local custom fonts */
 @font-face {
   font-family: 'MyFont';
-  src: url('/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2') format('woff2'),
-  url('/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff') format('woff');
+  src: url('/next-app/fonts/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2') format('woff2'),
+  url('/next-app/fonts/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff') format('woff');
   font-weight: 400; /* or other weights */
   font-style: normal;
   font-display: swap; /* improves performance */
@@ -18,26 +18,6 @@
 /* local custom fonts */
 
 
-/* body {
-  font-family: 'MyCustomFont', sans-serif;
-}
- */
-
-
-/* You can also add site-wide utilities here */
-
-
-/* :root {
-  --background: #ffffff;
-  --foreground: #171717;
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 html,
 body {
@@ -75,10 +55,3 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-} */
