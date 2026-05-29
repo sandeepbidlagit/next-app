@@ -2,8 +2,12 @@
 const nextConfig = {
   /* config options here */
   output: "export",
-  basePath: "/next-app",
-  assetPrefix: "/next-app/",
+  basePath: "/pmi",
+  assetPrefix: "/pmi/",
+
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

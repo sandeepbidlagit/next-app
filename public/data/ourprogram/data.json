@@ -1,32 +1,32 @@
 [
   {
     "id": 1,
-    "img": "/images/ourprogram/carbon-pricing.svg",
+    "img": "/next-app/images/ourprogram/carbon-pricing.svg",
     "alt": "image 1"
   },
   {
     "id": 2,
-    "img": "/images/ourprogram/climate-wharehouse.svg",
+    "img": "/next-app//images/ourprogram/climate-wharehouse.svg",
     "alt": "image 2"
   },
   {
     "id": 3,
-    "img": "/images/ourprogram/innovate-climate.svg",
+    "img": "/next-app//images/ourprogram/innovate-climate.svg",
     "alt": "image 3"
   },
   {
     "id": 1,
-    "img": "/images/ourprogram/carbon-pricing.svg",
+    "img": "/next-app//images/ourprogram/carbon-pricing.svg",
     "alt": "image 4"
   },
   {
     "id": 2,
-    "img": "/images/ourprogram/climate-wharehouse.svg",
+    "img": "/next-app//images/ourprogram/climate-wharehouse.svg",
     "alt": "image 5"
   },
   {
     "id": 3,
-    "img": "/images/ourprogram/carbon-pricing.svg",
+    "img": "/next-app/images/ourprogram/carbon-pricing.svg",
     "alt": "image 6"
   }
 ]
