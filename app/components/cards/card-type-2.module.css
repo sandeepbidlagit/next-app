@@ -1,0 +1,35 @@
+.card-type-2-item {
+  background: linear-gradient( to bottom, #00bcd4 0%, #15434833 100%);
+  padding: 42px;
+  min-height: 422px;
+  margin-top: 6px;
+}
+.card-type-2-title {
+  font-weight: var(--fw-se);
+  font-size: var(--fs100);
+  color: var(--white);
+  line-height: 52px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.card-type-2-item ul {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.card-type-2-item ul li {
+  border-bottom: 1px solid var(--white);
+}
+.card-type-2-item ul li a {
+  display: block;
+  color: var(--white);
+  padding: 10px 0;
+  text-decoration: none;
+}
+.item-para {
+  color: var(--white);
+  padding-top: 7px;
+  text-decoration: none;
+}

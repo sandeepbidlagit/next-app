@@ -1,0 +1,19 @@
+input::placeholder {
+  font-size: 0.75rem;
+  font-weight: var(--fw-re);
+  color: var(--fc-c11);
+}
+::-webkit-input-placeholder {
+  color: var(--fc-c11);
+}
+:-moz-placeholder {
+  color: var(--fc-c11);
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: var(--fc-c11);
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: var(--fc-c11);
+}

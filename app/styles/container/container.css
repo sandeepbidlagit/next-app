@@ -1,0 +1,22 @@
+:root {
+  --max-page-width: 1920px;
+  /* --container-width: 1430px; */
+  --container-width: 1170px;
+  --container-padding: 15px;
+}
+
+body {
+  background-color: var(--bg-c5);
+  /* background-color: #000; */
+  margin: 0;
+  padding: 0;
+  padding-top: 85px; /* header height */
+}
+
+.dialog-off-canvas-main-canvas {
+  max-width: var(--max-page-width);
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: var(--white); */
+}
+

@@ -1,0 +1,108 @@
+.bannerArea {
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--white);
+  /* padding: 76px 0; */
+  padding: 4px 0;
+  z-index: 1;
+  max-width: 576px;
+  width: 100%;
+}
+.banner-title {
+  position: static;
+  font-weight: var(--fw-se);
+  font-size: var(--fs52);
+  color: var(--white);
+  padding: 0 0 11px 0;
+  margin: 0;
+  max-width: 663px;
+  line-height: 62px;
+}
+.banner-desc {
+  font-weight: var(--fw-re);
+  font-size: 1rem;
+  color: var(--white);
+  padding: 0 0 31px 0;
+  margin: 0;
+  max-width: 663px;
+}
+
+.readmore-btn {
+  display: inline-block;
+  font-weight: var(--fw-re);
+  font-size: 0.75rem;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s linear 0s;
+  text-transform: uppercase;
+}
+/* .banner-area img {
+  max-height: 50em;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+} */
+/* .banner-area .color-overlay {
+  position: relative;
+}
+.banner-area .color-overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  opacity: 0.5;
+}
+
+ */
+
+
+/* .banner-area-img {
+  max-height: 50em;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+} */
+
+
+.color-overlay {
+  position: relative;
+}
+.color-overlay::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--black);
+  opacity: 0.5;
+}
+
+
+/* For reduce the hight of the banner image */
+.banner-wrapper{
+  position: relative;
+  width: 100%;
+  height: 480px;   /* control height here */
+}
+
+.banner-area-img{
+  width: 100%;
+  height: 200px;   /* reduce height here */
+  object-fit: cover;
+}
+/* For reduce the hight of the banner image */
+
+

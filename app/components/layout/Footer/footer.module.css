@@ -1,0 +1,116 @@
+/* Footer section */
+.footer {
+  position: relative;
+  background-color: var(--bg-c6);
+  padding: 70px 0 124px 0;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 0.94rem;
+}
+.footer-contact {
+  border-right: 1px solid var(--white);
+  padding-right: 40px;
+}
+.footer-contact .address {
+  margin-bottom: 18px;
+}
+.pmif-logo {
+  margin-bottom: 25px;
+}
+.footer-title {
+  font-weight: var(--fw-bo);
+  font-size: var(--fs16);
+  color: var(--white);
+  line-height: 45px;
+  padding: 0 0 0px 0;
+}
+.footer-title-big {
+  font-weight: var(--fw-re);
+  font-size: 1.25rem;
+  color: var(--fc-c7);
+  padding-bottom: 7px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-right: 1px solid var(--white);
+  padding: 0 80px;
+}
+.footer-menu-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-menu-item ul li {
+  border-bottom: 1px solid var(--br-c5);
+}
+.footer-menu-item ul li a {
+  display: block;
+  font-weight: 400;
+  font-size: var(--fs15);
+  color: var(--white);
+  line-height: 45px;
+  padding: 0px 0;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+  text-transform: uppercase;
+}
+.footer-menu-item ul li a:hover {
+  color: var(--primary-color);
+}
+.footer-newsletter {
+  max-width: 303px;
+  padding: 47px;
+}
+.footer-newsltr-title {
+  font-weight: var(--fw-bo);
+  font-size: var(--fs21);
+  color: var(--white);
+  line-height: 29px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.footer-submit-btn {
+  display: flex;
+  max-width: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: var(--fw-bo);
+  font-size: var(--fs13);
+  color: var(--fc-c1);
+  height: 50px;
+  border: 0;
+  background: var(--white);
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.footer-submit-btn:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+.footer-bottom {
+  position: absolute;
+  bottom: 0;
+  background-color: var(--bg-c2);
+  width: 100%;
+  padding: 16px 0px;
+}
+.footer-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bottom-title {
+  font-weight: 400;
+  font-size: var(--fs13);
+  color: var(--black);
+  line-height: 22px;
+  text-transform: uppercase;
+}
+/* End of Footer section */

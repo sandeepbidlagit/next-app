@@ -1,0 +1,157 @@
+.knowledge-center {
+  background-color: var(--bg-c5);
+  padding: 70px 0;
+}
+
+.knowledge-title {
+  font-weight: var(--fw-se);
+  font-size: var(--fs48);
+  color: var(--black);
+  padding: 0 0 22px 0;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.knowledge-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.middle {
+  display: flex;
+  box-shadow: var(--box-shadow);
+}
+
+.knowledge-data {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  width: 353px;
+  position: relative;
+}
+
+.knowledge-block-btn {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.knowledge-data-title {
+  font-weight: var(--fw-re);
+  font-size: var(--fs13);
+  color: var(--black);
+  padding: 0 0 20px 0;
+}
+
+.knowledge-data-desc {
+  font-weight: var(--fw-bo);
+  font-size: var(--fs21);
+  color: var(--black);
+  padding: 0 0 20px 0;
+}
+
+.knowledge-data-para {
+  font-weight: var(--fw-re);
+  font-size: var(--fs16);
+  color: var(--black);
+  line-height: 26px;
+  padding: 0 0 20px 0;
+}
+
+#img1,
+#img3 {
+  cursor: pointer;
+}
+
+.middle-img {
+  max-width: 380px;
+  height: 499px;
+  width: 100%;
+}
+
+.middle-img #img2 {
+  max-width: 380px;
+  height: 499px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+.middle-img #img3 {
+  transition: all 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0.5;
+}
+
+.knowledge-data-1 {
+  display: none;
+  background-color: var(--white);
+  padding: 30px;
+  width: 353px;
+  position: relative;
+}
+
+.knowledge-data-3 {
+  display: none;
+  background-color: var(--white);
+  padding: 30px;
+  width: 353px;
+  position: relative;
+  top: 20%;
+}
+
+.knowledge-data-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: inherit;
+  padding: 0 35px;
+  transition: all 0.5s ease-in-out;
+}
+
+.knowledge-data-1,
+.knowledge-data-3,
+.knowledge-data-title {
+  font-weight: var(--fw-re);
+  font-size: var(--fs13);
+  color: var(--black);
+  padding: 0 0 20px 0;
+  opacity: 1;
+}
+
+.knowledge-data-1,
+.knowledge-data-3,
+.knowledge-data-desc {
+  font-weight: var(--fw-bo);
+  font-size: var(--fs21);
+  color: var(--black);
+  padding: 0 0 20px 0;
+  opacity: 1;
+}
+
+.knowledge-data-1 .learnmore-arrow::after,
+.knowledge-data-3 .learnmore-arrow::after {
+  top: -3px;
+}
+
+@media screen and (max-width:768px) {
+  .knowledge-block {
+    flex-wrap: wrap;
+  }
+
+  .middle {
+    flex-wrap: wrap;
+  }
+  .knowledge-data {
+    width: 100%;
+    min-height: 386px;
+  }
+}
+
+

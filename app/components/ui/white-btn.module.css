@@ -1,0 +1,20 @@
+.white-bg-btn {
+  font-weight: var(--fw-re);
+  font-size: 0.75rem;
+  color: var(--fc-c1);
+  background-color: var(--white);
+  text-decoration: none;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 2.813rem;
+  line-height: 2.813rem;
+  text-align: center;
+  transition: all 0.2s linear 0s;
+  cursor: pointer;
+}
+
+.white-bg-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}

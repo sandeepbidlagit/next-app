@@ -1,0 +1,20 @@
+.primary-btn {
+  font-weight: var(--fw-re);
+  font-size: 0.75rem;
+  color: var(--fc-c1);
+  background-color: var(--primary-color);
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s linear 0s;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+}
+
+.primary-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}

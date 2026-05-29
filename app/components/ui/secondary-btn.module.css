@@ -1,0 +1,21 @@
+.secondary-btn {
+    font-weight: var(--fw-re);
+    font-size: 0.75rem;
+    color: var(--fc-c1);
+    background-color: transparent;
+    border: 1px solid var(--fc-c1);
+    text-decoration: none;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+    cursor: pointer;
+}
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--white);
+}

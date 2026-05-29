@@ -1,0 +1,24 @@
+.footer-submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 15px 20px;
+  font-weight: var(--fw-bo);
+  font-size: var(--fs13);
+  color: var(--fc-c1);
+  height: 50px;
+  line-height: 50px;
+  border: 0;
+  background: var(--white);
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.footer-submit-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--white);
+}

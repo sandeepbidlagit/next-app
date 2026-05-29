@@ -1,0 +1,122 @@
+.aboutUs {
+  background: url("/images/home/aboutus/about-us-bg.jpg") no-repeat center top;
+  background-size: cover;
+}
+
+.about-us-main {
+  position: relative;
+}
+
+.about-us-top {
+  max-width: 996px;
+  margin: auto;
+  padding: 168px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutleft {
+  position: relative;
+  width: 470px;
+  height: 470px;
+  /* controls visible height */
+  z-index: 1;
+  /* border-radius: 50%; */
+}
+
+/* .aboutleft img {
+  width: 470px;
+  height: 470px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+} */
+
+.aboutright {
+  max-width: 426px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-us-title {
+  font-weight: var(--fw-se);
+  font-size: var(--fs48);
+  color: var(--black);
+  padding: 0 0 11px 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.about-us-desc {
+  font-weight: var(--fw-re);
+  font-size: var(--fs16);
+  color: var(--black);
+  padding: 0 0 23px 0;
+  margin: 0;
+  line-height: 26px;
+}
+
+.list-title {
+  font-weight: var(--fw-se);
+  font-size: 24px;
+  color: var(--white);
+  line-height: 26px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-us-bottom {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  padding: 201px 0 0 0;
+  margin-top: -100px;
+  background: linear-gradient(to bottom,
+      rgba(0, 193, 212, 1) 5%,
+      /* Red at 0% with 80% opacity */
+      rgba(1, 17, 30, 1) 100%
+      /* Green at 100% with 20% opacity */
+    );
+}
+
+.listing-type-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem;
+}
+
+
+@media screen and (max-width: 500px) {
+  .about-us {
+    background-size: cover;
+  }
+
+  .about-us-top {
+    flex-direction: column;
+    padding: 50px 0 0 0;
+    align-items: center;
+  }
+
+  .about-us-bottom {
+    margin-top: 29px;
+  }
+
+  .listing-type-1 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .about-us-top {
+    padding: 70px 0 0 0;
+  }
+
+  .aboutleft {
+    width: 350px;
+    height: 311px;
+  }
+}
