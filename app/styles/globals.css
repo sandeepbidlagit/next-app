@@ -9,8 +9,8 @@
 /* local custom fonts */
 @font-face {
   font-family: 'MyFont';
-  src: url('/next-app/fonts/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2') format('woff2'),
-  url('/next-app/fonts/site-fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff') format('woff');
+  src: url('/next-app/fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff2') format('woff2'),
+  url('/next-app/fonts/Avenir/webFonts/AvenirLTPro-Medium/font.woff') format('woff');
   font-weight: 400; /* or other weights */
   font-style: normal;
   font-display: swap; /* improves performance */
@@ -27,8 +27,6 @@ body {
 
 body {
   color: var(--foreground);
-  /* background: var(--background); */
-  /* font-family: Arial, Helvetica, sans-serif; */
    font-family: 'MyFont', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
