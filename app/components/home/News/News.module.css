@@ -1,6 +1,6 @@
 .news {
   position: relative;
-  background: var(--bg-c5) url("/images/news/news.jpg");
+  background: var(--bg-c5) url("/next-app/images/news/news.jpg");
   background-repeat: no-repeat;
   background-size: 50% 100%;
   /* 50% width, auto height */

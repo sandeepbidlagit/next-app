@@ -143,7 +143,7 @@ header.header-block.fixed .search-form-outer.active {
   width: 18px;
   height: 18px;
   background-color: var(--white);
-  background: url("/images/header/img/search_blue.svg") no-repeat;
+  background: url("/next-app/images/header/img/search_blue.svg") no-repeat;
   transition: background 0.2s ease-in;
   cursor: pointer;
 }
