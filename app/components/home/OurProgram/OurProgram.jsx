@@ -16,7 +16,7 @@ const OurProgram = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("/data/ourprogram/data.json");
+        const res = await fetch("/next-app/ourprogram/data.json");
         if (!res.ok) throw new Error("Failed to load JSON");
         const data = await res.json();
         setSlides(data);
