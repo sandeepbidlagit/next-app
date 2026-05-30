@@ -11,7 +11,7 @@ const page = () => {
             <div className={styleFooter["footer-contact"]}>
               <div className={styleFooter["address"]}>
                 <h3 className={styleFooter["footer-title"]}>The Anchor Fund for</h3>
-                <Image src="/next-app/images/footer/pmif-logo.svg"
+                <Image src="/next-app/images/footer/pmif-logo.png"
                   alt="Pmi Logo"
                   width={167}
                   height={69}

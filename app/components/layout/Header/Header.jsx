@@ -30,7 +30,7 @@ const page = () => {
           <div className={headerStyles.container}>
             <div>
               <Link href="/">
-                <Image src="/next-app/images/header/logo.svg"
+                <Image src="/next-app/images/header/logo.png"
                   alt="Profile picture"
                   width={173}
                   height={70}
