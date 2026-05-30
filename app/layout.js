@@ -39,13 +39,13 @@ export default function RootLayout({ children }) {
     <html lang="en" className={myFont.className}>
       {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
       <body style={{ fontFamily: "'MyFont', 'MyFont Fallback', sans-serif" }}>
+          <ClientLoader>
         <div className="dialog-off-canvas-main-canvas">
           <Header />
-          <ClientLoader>
             {children}
-          </ClientLoader>
           <Footer />
         </div>
+          </ClientLoader>
       </body>
     </html>
   );
