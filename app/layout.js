@@ -8,6 +8,7 @@ import "./styles/globals.css";
 import "./styles/colors/colors.css";
 import "./styles/base/base.css";
 import "./styles/fonts/fonts.css";
+import ClientLoader from './components/ClientLoader';
 
 // local custom font
 const myFont = localFont({
@@ -39,10 +40,11 @@ export default function RootLayout({ children }) {
       {/* <body className={`${geistSans.variable} ${geistMono.variable}`}> */}
       <body style={{ fontFamily: "'MyFont', 'MyFont Fallback', sans-serif" }}>
         <div className="dialog-off-canvas-main-canvas">
-        <Header/>
-        {children}
-        <Footer/>
-
+          <Header />
+          <ClientLoader>
+            {children}
+          </ClientLoader>
+          <Footer />
         </div>
       </body>
     </html>
