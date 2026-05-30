@@ -4,7 +4,7 @@ import subscribeStyle from './subscribe-btn.module.css'
 const SubscribeBtn = () => {
   return (
      <div>
-      <Link href="/about" className={subscribeStyle["footer-submit-btn"]}>Subscribe</Link>
+      <Link href="/" className={subscribeStyle["footer-submit-btn"]}>Subscribe</Link>
     </div>
   )
 }

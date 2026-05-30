@@ -5,7 +5,7 @@ import primaryStyle from './primary-btn.module.css'
 const PrimaryButton = () => {
   return (
     <>
-      <Link href="/about" className={primaryStyle["primary-btn"]}>Learn More</Link>
+      <Link href="/" className={primaryStyle["primary-btn"]}>Learn More</Link>
     </>
   )
 }
