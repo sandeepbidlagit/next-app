@@ -1,3 +1,4 @@
+"use client"
 import React, { useEffect, useState } from 'react'
 import styleProgram from './ourprogram.module.css'
 import { Swiper, SwiperSlide } from "swiper/react";

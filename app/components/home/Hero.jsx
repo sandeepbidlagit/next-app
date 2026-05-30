@@ -1,3 +1,5 @@
+"use client"
+
 import heroStyle from './hero.module.css'
 
 import Image from "next/image";
