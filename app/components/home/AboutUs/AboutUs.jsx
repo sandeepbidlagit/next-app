@@ -22,19 +22,15 @@ const AboutUs = () => {
               <div className={aboutStyle.aboutright}>
                 <h2 className={aboutStyle["about-us-title"]}>About us</h2>
                 <p className={aboutStyle["about-us-desc"]}>
-                  The Partnership for Market Implementation (PMI) has two
-                  overarching objectives: assist client countries design and
-                  deploy carbon pricing policies appropriate to their domestic
-                  context; and catalyze the development of the next generation
-                  of international carbon markets. The PMI currently supports
-                  more than 32 countries through national and regional programs.
+                  The Partnership for Market Implementation
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolor ab magnam veritatis libero nostrum consequuntur ipsa modi minus exercitationem distinctio, a porro maxime illum culpa obcaecati esse perspiciatis facere programs.
                 </p>
                 <SecondaryButton />
               </div>
             </div>
           </div>
         </div>
-
+    
         <div className={aboutStyle["about-us-bottom"]}>
           <div className="container">
             <div className={aboutStyle["listing-type-1"]}>
